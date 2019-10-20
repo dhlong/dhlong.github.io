@@ -10,16 +10,28 @@
     Teaching Assistantship
   </h2>
 
-  <table>
+<!--   <table>
 
     {% for teaching in teaching-assistantship %}
       <tr>
-        <td>{{ teaching.time }}</td>
+        <td>{{ teaching.time }} </td>
         <td>{{ teaching.course }}</td>
       </tr>
     {% endfor %}
   
   </table>
+-->
+    {% for teaching in teaching-assistantship %}
+    <div class="item">
+      <div class="meta">
+
+        <div class="upper-row">
+          <div class="degree">{{ teaching.course }}</div>
+          <div class="time">{{ teaching.time }}</div>
+        </div><!--//upper-row-->
+
+      </div><!--//meta-->
+    {% endfor %}
 
 </section>
 {% endif %}

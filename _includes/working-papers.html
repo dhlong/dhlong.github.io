@@ -12,20 +12,13 @@
 
     {% for paper in working-papers %}
     <div class="item">
-
-      <div class="meta">
-
-        <div class="upper-row">
-          <h3 class="title">{{ paper.title }}</h3>
-        </div><!--//upper-row-->
-
-        <div class="author">{{ paper.author }}</div>
-      </div><!--//meta-->
+      <div class="paper-title">{{ paper.title }}</div>
+      <div class="paper-authors">{{ paper.author }}</div>
 
       {% if paper.details %}
-      <div class="details">
-        {{ paper.details | markdownify }}
-      </div><!--//details-->
+        <div class="details">
+          {{ paper.details | markdownify }}
+        </div><!--//details-->
       {% endif %}
 
     </div><!--//item-->

@@ -1,0 +1,21 @@
+{% assign teaching-assistantship = site.data.data.teaching-assistantship %}
+{% if teaching-assistantship %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    Teaching Assistantship
+  </h2>
+
+  <table>
+
+    {% for teaching in teaching-assistantship %}
+      <tr>
+        <td>{{ teaching.time }}</td>
+        <td>{{ teaching.course }}</td>
+      </tr>
+    {% endfor %}
+  
+  </table>
+
+</div><!--//interests-->
+{% endif %}

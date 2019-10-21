@@ -61,6 +61,11 @@ research-interest:
     title: Research Interest
     summary: |
       Applied Microeconomics, Empirical Industrial Organization, Labor Economics, Behaviorial Economics
+    interests:
+      - item: Applied Microeconomics
+      - item: Empirical Industrial Organization
+      - item: Labor Economics
+      - item: Behaviorial Economics
     
 education:
     - degree: Ph.D. in Economics

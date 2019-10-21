@@ -7,9 +7,11 @@
       {{ research-interest.title }}
     </h2>
 
-    <div class="summary">
-      {{ research-interest.summary | markdownify }}
-    </div><!--//summary-->
+  <ul class="list-unstyled interests-list">
+    {% for interest in research-interest.interests %}
+      <li>{{ interest.item }}</li>
+    {% endfor %}
+  </ul>
 
   </div><!--//education-container-->
 
@@ -30,5 +32,5 @@
       
   </section><!--//section-->
   {% endif %}
-  
+
 {% endif %}

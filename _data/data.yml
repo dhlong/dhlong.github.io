@@ -5,6 +5,7 @@
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
+    research-interest: True
 
     # Profile information
     name: Duong Hai Long
@@ -49,9 +50,9 @@ career-profile:
 bio:
     title: Bio
     summary: |
-      I am an applied economist with main research interest in *empirical
+      I am an applied economist. My main research interests are *empirical
       industrial organization*, *labor economics*, and *behavioral economics*.
-      I received my Ph.D. in Economics in August 2017 from National University
+      I received my Ph.D. in Economics in August 2017 from the National University
       of Singapore (NUS). Since then, to fulfill my bond with Singapore's goverment,
       I have been working as a postdoctoral fellow at the Department of 
       Marketing, NUS Business School.

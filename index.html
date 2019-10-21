@@ -4,9 +4,9 @@ layout: default
 
 {% include bio.html %}
 
-{% include career-profile.html %}
-
-{% include research-interest.html %}
+{% unless site.data.data.sidebar.research-interest %}
+  {% include research-interest.html %}
+{% endunless %}
 
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}

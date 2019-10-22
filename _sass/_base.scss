@@ -219,6 +219,7 @@ p {
         font-weight: 400;
         color: $text-color;
         margin-bottom: 1px;
+        align: justify;
     }
     .publication-authors {
         font-style: italic;
@@ -232,6 +233,14 @@ p {
         .item {
             margin-bottom: 15px;
         }
+    }
+
+    .toggle {
+        font-style: italic;
+        text-decoration: underline;
+        color: lighten($theme-color, 15%);
+        background: none;
+        border: none;
     }
 }
 

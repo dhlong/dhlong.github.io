@@ -50,7 +50,7 @@ career-profile:
 bio:
     title: About me
     summary: |
-      I am an applied microeconomics.
+      I am an applied microeconomist.
       I received my Ph.D. in Economics in 2017 from the National University
       of Singapore (NUS). Since then, to fulfill the bond with the Singapore's goverment,
       I have been working as a postdoctoral fellow at the Department of 
@@ -71,8 +71,9 @@ education:
       university: National University of Singapore
       time: 2017
       details: |
-        Thesis: Fuel Prices, Regulations and the Adoption of Fuel-saving Technologies
-        and Alternative Fuels. Committee: Alberto Salvo (Chair), John C. Ham, Nan Yang
+        - Thesis: Fuel Prices, Regulations and the Adoption of Fuel-saving Technologies
+        and Alternative Fuels. 
+        - Committee: Alberto Salvo (Chair), John C. Ham, Nan Yang
 
 #          - Bullet point
 #          - Bullet point
@@ -90,12 +91,58 @@ education:
 working-papers:
     - title: "Making Lemonade from Lemons: Taxi Drivers' Response to Cancellations and No-shows"
       author: Hai Long Duong, Junhong Chu and Dai Yao
+      link: https://dx.doi.org/10.2139/ssrn.3342473
+      summary: |
+        Koszegi and Rabin (2006) show that workers with endogenous income targets
+        respond differently to anticipated changes and unanticipated shocks in their 
+        earnings, and only the latter generates behaviors that contradict the 
+        neoclassical model of labor supply. In this paper, we study the impact 
+        of booking cancellations and passenger no-shows—a source of unanticipated
+        negative income shocks—on Singaporean taxi drivers' labor supply and 
+        productivity. We find that drivers work longer and earn more per hour 
+        following cancellations or no-shows, and the effects are strongest when 
+        cumulative income is close to the average shift income and become 
+        insignificant when the income is too low or too high. This provides 
+        compelling evidence for income targeting labor supply, even in the presence 
+        of endogenous reference point. In addition, we find that drivers respond 
+        more strongly to more recent cancellations and no-shows, suggesting a 
+        dynamic nature of the reference point. Moreover, working longer and 
+        increasing productivity are substitutable rather than complementary 
+        devices, and are chosen by taxi drivers in their own favor: More 
+        experienced drivers tend to increase productivity, and solo drivers 
+        tend to work more hours. 
       
     - title: "Price Salience and Imperfect Information: Evidences from Experiments at Fuelling Stations in Brazil"
       author: Hai Long Duong and Alberto Salvo
+      summary: |
+        The paper investigates the effect of price salience on consumer fuel 
+        choice at the pump. Using data gathered from an experiment conducted 
+        in four Brazilian cities which involved showing salient price information 
+        to random consumers at fueling stations, we show that the observed 
+        consumer choices are consistent with a model of imperfect price 
+        information. Price noise is estimated to contribute at least 19% of 
+        the variation in consumer's random utility. Providing price ratio 
+        comparison at the pump can decrease consumer's perceived value of 
+        gasoline and midgrade gasoline by 7%. The model also shows a significant 
+        value of gasoline to consumers even when ethanol is very competitively 
+        priced, as well as substantial variation in gasoline valuation across 
+        consumers, which highlights the difficulties in displacing fossil fuel, 
+        even in a market with an accessible alternative as in Brazil. 
       
     - title: "The Adoption of Fuel-saving Technologies in U.S. Automobile Industry: Regulation Push and Demand Pull"
       author: Hai Long Duong
+      summary: |
+        The paper investigates the influence of fuel-price and fuel-economy 
+        regulation on the adoption of fuel-saving technologies in the U.S. 
+        automobile industry. I address this question with an empirical model 
+        of the industry that incorporates demand, supply, technologies, and 
+        regulations. The novelty of this model is that it allows for endogenous 
+        choices of vehicle fuel efficiency by firms in the form of a 
+        fuel-efficiency frontier. The counterfactual studies show that both 
+        fuel prices and regulations contribute to the recent acceleration of 
+        vehicle fuel economy in the U.S.: Consumers are driven by the fluctuation 
+        in fuel price and car-makers are driven by stricter regulations when 
+        adopting fuel-efficient vehicles. 
 
 teaching-assistantship:
     - course: EC3304 Econometrics II

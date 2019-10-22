@@ -12,13 +12,23 @@
 
     {% for paper in working-papers %}
     <div class="item">
-      <div class="publication-title">{{ paper.title }}</div>
-      <div class="publication-authors">{{ paper.author }}</div>
-
-      {% if paper.details %}
-        <div class="details">
-          {{ paper.details | markdownify }}
-        </div><!--//details-->
+      <div class="publication-title">{{ paper.title }} </div>
+      <div class="upper-row">
+        <div class="publication-authors">{{ paper.author }}</div>
+        <button class="time toggle">abstract</button>
+      </div>
+      {% if paper.summary %}
+      
+<!--       <p>[expand]</p>
+        <div class="summary">
+          {{ paper.summary | markdownify }}
+        </div>
+      <p>[/expand]</p>
+ -->
+      
+      <div class="summary" align="justify" style="display: none">
+        {{ paper.summary | markdownify }}
+      </div>
       {% endif %}
 
     </div><!--//item-->

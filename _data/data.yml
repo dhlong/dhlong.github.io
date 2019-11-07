@@ -48,13 +48,16 @@ career-profile:
       Postdoctoral Fellow, Department of Marketing, National University of Singapore, 2017-present.
 
 bio:
-    title: About me
+    title: About me & CV
     summary: |
-      I am an applied microeconomist.
+      Welcome to the home of an applied microeconomist. Have a look at my [**CV**](!SITE_URL/doc/cv.pdf).
+
       I received my Ph.D. in Economics in 2017 from the National University
       of Singapore (NUS). Since then, to fulfill the bond with the Singapore's goverment,
       I have been working as a postdoctoral fellow at the Department of 
       Marketing, NUS Business School.
+
+      
 
 research-interest:
     title: Research Interest
@@ -89,9 +92,9 @@ education:
       time: 2011
 
 working-papers:
-    - title: "Making Lemonade from Lemons: Taxi Drivers' Response to Cancellations and No-shows"
+    - title: "Making Lemonade from Lemons: Taxi Drivers' Response to Cancellations and No-shows *(job market paper, link to [PDF](!SITE_URL/doc/jmp.pdf))*"
       author: Hai Long Duong, Junhong Chu and Dai Yao
-      link: https://dx.doi.org/10.2139/ssrn.3342473
+      ssrn: https://dx.doi.org/10.2139/ssrn.3342473
       summary: |
         Koszegi and Rabin (2006) show that workers with endogenous income targets
         respond differently to anticipated changes and unanticipated shocks in their 
@@ -143,6 +146,48 @@ working-papers:
         vehicle fuel economy in the U.S.: Consumers are driven by the fluctuation 
         in fuel price and car-makers are driven by stricter regulations when 
         adopting fuel-efficient vehicles. 
+
+
+references:
+  - name: Prof. Alberto Salvo
+    contact: |
+      Department of Economics
+
+      National University of Singapore
+
+      1 Arts Link, AS2, 05-35 
+
+      Singapore 117570 
+
+      Tel: +65 6516 4874
+
+      Email: albertosalvo@nus.edu.sg
+
+
+  - name: Prof. Junhong Chu
+    contact: |
+      NUS Business School
+
+      15 Kent Ridge Drive
+
+      Singapore 119245 
+
+      Tel: +65 6516 6938 
+
+      Email: bizcj@nus.edu.sg
+
+
+  - name: Prof. Sumit Agarwal
+    contact: |
+      15 Kent Ridge Drive
+
+      National University of Singapore
+
+      Singapore 119245
+
+      Tel: +65 6516 5316
+
+      Email: ushakri@yahoo.com
 
 teaching-assistantship:
     - course: EC3304 Econometrics II

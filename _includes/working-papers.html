@@ -12,7 +12,7 @@
 
     {% for paper in working-papers %}
     <div class="item">
-      <div class="publication-title">{{ paper.title }} </div>
+      <div class="publication-title">{{ paper.title | replace: '!SITE_URL', site.baseurl  | markdownify }} </div>
       <div class="upper-row">
         <div class="publication-authors">{{ paper.author }}</div>
         <button class="time toggle">abstract</button>

@@ -11,7 +11,7 @@
   </h2>
 
   <div class="summary" align="justify">
-    {{ bio.summary | markdownify }}
+    {{ bio.summary | replace: '!SITE_URL', site.baseurl | markdownify }}
   </div><!--//summary-->
     
 </section><!--//section-->

@@ -1,0 +1,30 @@
+{% assign references = site.data.data.references %}
+{% if references %}
+  <section class="section references-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-user-friends fa-stack-1x fa-inverse"></i>
+      </span>
+      References
+    </h2>
+
+    {% for ref in references %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="degree">{{ ref.name }}</h3>
+        </div><!--//upper-row-->
+
+        <div class="refcontact">{{ ref.contact | markdownify }}</div>
+      </div><!--//meta-->
+
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+{% endif %}
